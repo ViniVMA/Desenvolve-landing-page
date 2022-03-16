@@ -19,6 +19,7 @@ export const Content = styled.div`
   justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
