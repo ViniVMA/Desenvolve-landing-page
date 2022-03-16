@@ -28,6 +28,20 @@ export const Content = styled.div`
 
 export const Illustration = styled.div`
   max-width: 500px;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-40px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
 `;
 
 export const HeroText = styled.div`

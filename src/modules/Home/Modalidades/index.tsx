@@ -34,7 +34,7 @@ const cardsData = [
 
 export const ModalidadesSection = () => {
   return (
-    <S.HeroSection>
+    <S.ModalidadesSection>
       <S.Content>
         <S.TopContentWrapper>
           <S.TextWrapper>
@@ -62,6 +62,6 @@ export const ModalidadesSection = () => {
           )}
         </S.CardsWrapper>
       </S.Content>
-    </S.HeroSection>
+    </S.ModalidadesSection>
   );
 };

@@ -1,9 +1,10 @@
 import styled from "styled-components/macro";
 import HeroWave from "../../../../Public/waves/heroWave.svg";
 
-export const HeroSection = styled.section`
+export const ModalidadesSection = styled.section`
   position: relative;
   min-height: 50vh;
+  padding-bottom: 200px;
 `;
 
 export const Content = styled.div`

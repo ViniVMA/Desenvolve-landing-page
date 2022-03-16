@@ -2,6 +2,7 @@ import styled from "styled-components/macro";
 import { Header } from "components/Header";
 import { HeroSection } from "modules/Home/HeroSection";
 import { ModalidadesSection } from "modules/Home/Modalidades";
+import { NumbersSection } from "modules/Home/NumbersSections";
 
 const AppWrapper = styled.div`
   position: relative;
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <ModalidadesSection />
+      <NumbersSection />
     </AppWrapper>
   );
 }
