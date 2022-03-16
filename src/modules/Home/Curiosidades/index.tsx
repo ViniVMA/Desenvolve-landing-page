@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Button } from "components/Button";
-import * as S from "./participar.style";
+import * as S from "./curiosidades.style";
 import { Mousewheel, Pagination, Navigation } from "swiper";
 
 import "swiper/css";
@@ -12,51 +12,33 @@ import { InfoCard } from "components/InfoCards";
 const Cards = [
   {
     description:
-      "Ter concluído o Ensino médio e ter 18 anos completos até dezembro de 2021.",
-    img: "/infoCards/student.svg",
-  },
-  {
-    description: "Pessoas com renda inferior a 1,5 salários mínimos.*",
-    img: "/infoCards/renda.svg",
-  },
-  {
-    description: "Qualquer local do Brasil.",
-    img: "/infoCards/world.svg",
-  },
-  {
-    description: "Temos vagas dedicadas a pessoas com mais de 50 anos",
-    img: "/infoCards/elder.svg",
-  },
-  {
-    description: "Temos vagas dedicadas a pessoas pretas e pardas.",
-    img: "/infoCards/blackPerson.svg",
-  },
-  {
-    description: "Temos vagas dedicadas a pessoas transgênero ou não binárias.",
-    img: "/infoCards/trans.svg",
-  },
-  {
-    description: "Temos vagas dedicadas a mulheres",
-    img: "/infoCards/woman.svg",
+      "Estima-se que, no Brasil, mulheres são 51,8% da população. Porém, na tecnologia, elas são apenas 31,5%..",
+    img: "/infoCards/engineer.svg",
   },
   {
     description:
-      "Temos vagas dedicadas a pessoas em situação de refúgio ou apátridas.",
-    img: "/infoCards/refugees.svg",
+      "Quando falamos em cor e raça, pessoas pretas e pardas são 56,2% do Brasil. Em tech, apenas 36,9%",
+    img: "/infoCards/keyPoints.svg",
+  },
+  {
+    description:
+      "Em 2018, o gap de profissionais de TI no Brasil já chegava a 200 mil profissionais. São 200 mil vagas de emprego sem gente capacitada para ocupar!",
+    img: "/infoCards/goingUp.svg",
+  },
+  {
+    description:
+      "Mais de 60% dos profissionais de tecnologia recebem mais de 5 salários mínimos. No país, a média de remuneração de ocupados é pouco acima de 2 salários.",
+    img: "/infoCards/money.svg",
   },
 ];
 
-export const ParticiparSection = () => {
+export const CuriosidadesSection = () => {
   return (
-    <S.ParticiparSection>
+    <S.CuriosidadesSection>
       <S.Content>
         <S.TopContentWrapper>
           <S.TextWrapper>
-            <h2>Posso participar?</h2>
-            <p>
-              São aptas a participar pessoas que se enquadram no seguinte
-              perfil:
-            </p>
+            <h2>Você sabia...</h2>
           </S.TextWrapper>
           <Button text="Lista Das Pessoas Selecionadas" />
         </S.TopContentWrapper>
@@ -93,10 +75,6 @@ export const ParticiparSection = () => {
                 slidesPerView: 4,
                 spaceBetween: 5,
               },
-              1200: {
-                slidesPerView: 5,
-                spaceBetween: 5,
-              },
             }}
           >
             {Cards.map(({ description, img }) => (
@@ -107,9 +85,10 @@ export const ParticiparSection = () => {
           </Swiper>
         </S.CarouselWrapper>
         <S.Warn>
-          *Exclusão do critério de renda para aposentados e pensionistas do INSS
+          Fontes: IBGE, PNAD Contínua, 2019. #QuemCodaBR, 2017. IstoÉ Dinheiro,
+          2019.
         </S.Warn>
       </S.Content>
-    </S.ParticiparSection>
+    </S.CuriosidadesSection>
   );
 };

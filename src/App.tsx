@@ -4,6 +4,8 @@ import { HeroSection } from "modules/Home/HeroSection";
 import { ModalidadesSection } from "modules/Home/Modalidades";
 import { NumbersSection } from "modules/Home/NumbersSections";
 import { ParticiparSection } from "modules/Home/ParticiparSection";
+import { TimelineSection } from "modules/Home/TimelineSection";
+import { CuriosidadesSection } from "modules/Home/Curiosidades";
 
 const AppWrapper = styled.div`
   position: relative;
@@ -17,6 +19,8 @@ function App() {
       <ModalidadesSection />
       <NumbersSection />
       <ParticiparSection />
+      <TimelineSection />
+      <CuriosidadesSection />
     </AppWrapper>
   );
 }

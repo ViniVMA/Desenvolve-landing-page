@@ -8,7 +8,7 @@ export const CardWrapper = styled.div`
   border: 1px solid #00000020;
   border-radius: 30px;
   max-width: 272px;
-  min-height: 380px;
+  height: 380px;
   padding: 24px;
 `;
 
