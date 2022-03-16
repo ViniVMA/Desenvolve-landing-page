@@ -20,7 +20,9 @@ export const CategoryCard = ({
 }: CategoryCardProps) => {
   return (
     <S.CardWrapper>
-      <img src={img} />
+      <S.ImageWrapper>
+        <img src={img} />
+      </S.ImageWrapper>
       <S.Avaliable>{avaliable} Vagas</S.Avaliable>
       <S.Title>{title}</S.Title>
       <S.Description>{description}</S.Description>
@@ -28,7 +30,7 @@ export const CategoryCard = ({
         <S.InfosCard>
           <span>Duração</span>
           <hr />
-          <span>{months}</span>
+          <span>{months} Meses</span>
         </S.InfosCard>
         <S.InfosCard>
           <span>Carga Horaria</span>

@@ -4,7 +4,7 @@ import HeroWave from "../../../../Public/waves/heroWave.svg";
 export const HeroSection = styled.section`
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(174.48deg, #fd749b -12.41%, #281ac8 88.56%);
+  background: linear-gradient(174.48deg, #a9cb7a -12.41%, #499d71 88.56%);
   padding-top: 100px;
   display: flex;
   flex-direction: column;

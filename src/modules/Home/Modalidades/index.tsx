@@ -1,3 +1,4 @@
+import { Button } from "components/Button";
 import { CategoryCard } from "./CategoryCard";
 import * as S from "./modalidades.style";
 
@@ -12,7 +13,7 @@ const cardsData = [
     workload: "600",
   },
   {
-    img: "/illustrations/cardDev.svg",
+    img: "/illustrations/cardDevOps.svg",
     avaliable: "50",
     title: "DevOps",
     description:
@@ -21,7 +22,7 @@ const cardsData = [
     workload: "600",
   },
   {
-    img: "/illustrations/cardDev.svg",
+    img: "/illustrations/cardData.svg",
     avaliable: "50",
     title: "Dados",
     description:
@@ -35,6 +36,17 @@ export const ModalidadesSection = () => {
   return (
     <S.HeroSection>
       <S.Content>
+        <S.TopContentWrapper>
+          <S.TextWrapper>
+            <h2>Conheça as modalidades</h2>
+            <p>
+              Opções <strong>gratuitas</strong> e <strong>online</strong> em
+              diferentes horários e com cargas variadas. Para conhecer mais,{" "}
+              <a>acesse o regulamento.</a>
+            </p>
+          </S.TextWrapper>
+          <Button text="Lista Das Pessoas Selecionadas" />
+        </S.TopContentWrapper>
         <S.CardsWrapper>
           {cardsData.map(
             ({ img, avaliable, title, description, months, workload }) => (
