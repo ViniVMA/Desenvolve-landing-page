@@ -35,10 +35,12 @@ export const LeftContent = styled.div`
 
   h3 {
     font-size: 3.6rem;
+    color: #fff;
   }
 
   p {
     font-size: 1.6rem;
+    color: #fff;
   }
 
   @media (max-width: 768px) {

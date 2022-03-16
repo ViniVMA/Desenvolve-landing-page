@@ -7,6 +7,7 @@ export const InfoSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-bottom: 50px;
 `;
 
 export const Content = styled.div`
@@ -33,6 +34,7 @@ export const Content = styled.div`
 
     h3 {
       font-size: 2.4rem;
+      color: #fff;
     }
 
     @media (max-width: 768px) {
@@ -47,6 +49,7 @@ export const Content = styled.div`
     display: flex;
     gap: 100px;
     font-size: 1.6rem;
+    color: #fff;
 
     .logoWrapper {
       max-width: 205px;

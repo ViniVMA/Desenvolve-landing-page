@@ -40,7 +40,7 @@ export const InfoSection = () => {
         </div>
         <div className="BottomContent">
           <div className="logoWrapper">
-            <GbTechLogo fill="#000" />
+            <GbTechLogo fill="#fff" />
             <h3>Conheça o GB.Tech</h3>
           </div>
           <p>
