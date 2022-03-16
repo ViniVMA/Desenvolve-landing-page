@@ -51,7 +51,7 @@ export const CuriosidadesSection = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[Mousewheel, Pagination, Navigation]}
+            modules={[Pagination, Navigation]}
             className="mySwiper"
             breakpoints={{
               // when window width is >= 320px

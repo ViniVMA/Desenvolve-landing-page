@@ -6,7 +6,7 @@ export const Header = () => {
     <S.Header>
       <S.HeaderContent>
         <S.LogoWrapper>
-          <GbTechLogo />
+          <GbTechLogo fill="#fff" />
         </S.LogoWrapper>
       </S.HeaderContent>
     </S.Header>

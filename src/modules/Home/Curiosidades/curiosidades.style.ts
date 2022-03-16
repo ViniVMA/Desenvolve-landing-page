@@ -3,7 +3,6 @@ import styled from "styled-components/macro";
 export const CuriosidadesSection = styled.section`
   position: relative;
   min-height: 50vh;
-  padding-bottom: 200px;
 `;
 
 export const Content = styled.div`
@@ -63,7 +62,8 @@ export const TopContentWrapper = styled.div`
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
     margin: 0 10px;
   }
 `;

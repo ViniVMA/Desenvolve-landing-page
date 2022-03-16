@@ -6,6 +6,7 @@ import { NumbersSection } from "modules/Home/NumbersSections";
 import { ParticiparSection } from "modules/Home/ParticiparSection";
 import { TimelineSection } from "modules/Home/TimelineSection";
 import { CuriosidadesSection } from "modules/Home/Curiosidades";
+import { InfoSection } from "modules/Home/InfosSection";
 
 const AppWrapper = styled.div`
   position: relative;
@@ -21,6 +22,7 @@ function App() {
       <ParticiparSection />
       <TimelineSection />
       <CuriosidadesSection />
+      <InfoSection />
     </AppWrapper>
   );
 }
